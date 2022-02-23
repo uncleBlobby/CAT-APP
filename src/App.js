@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       {DATA.length} entries scanned
-      <SearchByTemperature />
+      <SearchByTemperature temperatureInput = {''} />
       <SearchByDensity />
       Results:
       <ShowResults data={DATA} />
