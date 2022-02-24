@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 
 function SearchByDensity(props) {
 
-    const [densInput, setDensInput] = useState('');
+    //const [densInput, setDensInput] = useState('');
     const handleDensInput = (event) => {
-        console.log(event.target.value);
-        setDensInput(event.target.value);
+        //console.log(event.target.value);
+        //setDensInput(event.target.value);
+        props.updateData(event.target.value);
     }
 
-    console.log(`densInput: ${densInput}`)
+    //console.log(`densInput: ${densInput}`)
 
 
     return (

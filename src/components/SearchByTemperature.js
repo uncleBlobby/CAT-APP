@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 
 function SearchByTemperature(props) {
 
-    const [tempInput, setTempInput] = useState('');
+    //const [temperatureInput, setTempInput] = useState('');
     const handleTempInput = (event) => {
-        console.log(event.target.value)
-        setTempInput(event.target.value)
-        
+        //console.log(event.target.value)
+        //setTempInput(event.target.value)
+        props.updateData(event.target.value)
     }
 
-    console.log(`tempInput: ${tempInput}`);
+    //console.log(temperatureInput)
 
     return (
         <form>
