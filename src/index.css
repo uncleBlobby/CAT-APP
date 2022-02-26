@@ -1,3 +1,12 @@
+/*
+  --- UI THEME ---
+      #6C756B   <dark>
+      #93ACB5
+      #96C5F7
+      #A9D3FF
+      #F2F4FF   <light>
+*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #6C756B;
 }
 
 code {
