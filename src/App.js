@@ -1,25 +1,26 @@
 import './App.css';
+import React, { useState } from 'react';
 import SearchByDensity from './components/SearchByDensity';
 import SearchByTemperature from './components/SearchByTemperature';
 import ShowResults from './components/ShowResults';
 import DATA from './data/data.js'
+import AppHeaderWrapper from './components/AppHeaderWrapper';
+
 
 
 
 function App() {
-  
-  let tempCriterion = (childData) => {
-    //search for results that contain childData within the first 5 chars...
-    //then return those as relevant results.
-  }
+
+  const [tempData, setTempData] = useState('');
+
+  const [densData, setDensData] = useState('');
 
   return (
     <div className="App">
-      {DATA.length} entries scanned
-      <SearchByTemperature />
-      <SearchByDensity />
-      Results:
-      <ShowResults data={DATA} />
+      <AppHeaderWrapper />
+      <SearchByTemperature temperatureInput = {''} updateData={setTempData}/>
+      <SearchByDensity densityInput = {''} updateData={setDensData}/>
+      <ShowResults data={DATA} filterTemp={tempData} filterDens={densData} />
     </div>
   );
 }
