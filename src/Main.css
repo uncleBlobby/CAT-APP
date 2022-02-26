@@ -7,9 +7,14 @@
       #F2F4FF   <light>
 */
 
+.AppHeaderWrapper {
+    margin-bottom: 5%;
+    border-bottom: 5px solid white;
+}
+
 .AppHeader {
     font-size: 4rem;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     color: #F2F4FF;
 }
 

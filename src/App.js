@@ -4,7 +4,7 @@ import SearchByDensity from './components/SearchByDensity';
 import SearchByTemperature from './components/SearchByTemperature';
 import ShowResults from './components/ShowResults';
 import DATA from './data/data.js'
-import AppHeader from './components/AppHeader';
+import AppHeaderWrapper from './components/AppHeaderWrapper';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <AppHeader />
+      <AppHeaderWrapper />
       <SearchByTemperature temperatureInput = {''} updateData={setTempData}/>
       <SearchByDensity densityInput = {''} updateData={setDensData}/>
       <ShowResults data={DATA} filterTemp={tempData} filterDens={densData} />

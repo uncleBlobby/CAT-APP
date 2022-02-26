@@ -38,13 +38,23 @@ function ShowResults(props) {
     const listItems = outputResultsArray.map((outputResultsArray) =>
         <li>{outputResultsArray}</li>
     );
+    let abv = '';
+    if (outputResultsArray.length === 1) {
+        abv = outputResultsArray[0].substring(23, 28);
+    }
+    let volume = '';
+    if (outputResultsArray.length === 1) {
+        volume = outputResultsArray[0].substring(14, 22);
+    }
 
     return (
         <div>
-            <h1>{outputResultsArray.length} results.</h1>
             <h3>Temperature: {props.filterTemp} &deg;C</h3>
             <h3>Density: {props.filterDens}g/L</h3>
+            <h3>ABV: {abv}%</h3>
+            <h3>Volume: {volume}L/kg</h3>
             {/*props.data*/}
+            <hr></hr>
             <ul>{listItems}</ul>
         </div>
     );
