@@ -1,5 +1,5 @@
 import '../Main.css';
-import logo192 from '../images/logo192.png'
+import logo192 from '../images/logo192-white.png'
 
 function AppHeader() {
     return (

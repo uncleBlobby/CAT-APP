@@ -52,8 +52,7 @@ function ShowResults(props) {
             <h1>ABV: {abv}%</h1>
             <h3>Volume: {volume}L/kg</h3>
             {/*props.data*/}
-            <hr></hr>
-            <ul>{listItems}</ul>
+
         </div>
     );
 };
