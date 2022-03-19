@@ -1,13 +1,10 @@
 import '../Main.css';
+import logo192 from '../images/logo192.png'
 
 function AppHeader() {
     return (
         <div className="AppHeader">
-            CAT APP
-            <div className="AppDesc">
-                Canadian Alcoholometric Tables
-                <div>A React App</div>
-            </div>
+            <img src={logo192} alt="CAT APP LOGO"/>
         </div>
     );
 };

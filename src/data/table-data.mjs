@@ -16,8 +16,6 @@ readFile('ALC_TAB.TXT', 'utf-8', (err, data) => {
 
     let dataLines = data.split('\n');
 
-    //console.log(dataLines)
-    let counter = 0;
     dataLines.forEach((element, index) => {
 
         dataLines[index] = element.replace('\r', '');
@@ -34,15 +32,3 @@ readFile('ALC_TAB.TXT', 'utf-8', (err, data) => {
     });
 
 });
-
-
-//const OUTPUTBUFFER = new Uint8Array(Buffer.from(DATA));
-/*
-appendFile('alc_tab_data.js', DATA, (err) => {
-    if (err) throw err;
-    console.log('The data has been saved!');
-});
-*/
-
-
-//export default DATA;

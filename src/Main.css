@@ -9,7 +9,6 @@
 
 .AppHeaderWrapper {
     margin-bottom: 5%;
-    border-bottom: 5px solid white;
 }
 
 .AppHeader {
@@ -18,10 +17,18 @@
     color: #F2F4FF;
 }
 
+.InputTitle {
+    font-size: 2rem;
+}
+
 .AppDesc {
     font-size: 0.8rem;
 }
 
 .InputBox {
-    /*background-color: ;*/
+    font-size: 3rem;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
 }

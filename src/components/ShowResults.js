@@ -49,9 +49,7 @@ function ShowResults(props) {
 
     return (
         <div>
-            <h3>Temperature: {props.filterTemp} &deg;C</h3>
-            <h3>Density: {props.filterDens}g/L</h3>
-            <h3>ABV: {abv}%</h3>
+            <h1>ABV: {abv}%</h1>
             <h3>Volume: {volume}L/kg</h3>
             {/*props.data*/}
             <hr></hr>
