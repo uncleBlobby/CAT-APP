@@ -8,14 +8,18 @@
 */
 
 .AppHeaderWrapper {
-    margin-bottom: 5%;
-    border-bottom: 5px solid white;
+    margin-bottom: 0.5rem;
 }
 
 .AppHeader {
     font-size: 4rem;
-    margin-bottom: 2%;
+    margin-bottom: 0.2rem;
     color: #F2F4FF;
+}
+
+.InputTitle {
+    font-size: 2rem;
+    margin-top: 0.5rem;
 }
 
 .AppDesc {
@@ -23,5 +27,14 @@
 }
 
 .InputBox {
-    /*background-color: ;*/
+    font-size: 3rem;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
 }

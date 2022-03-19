@@ -9,10 +9,11 @@ function SearchByDensity(props) {
     };
 
     return (
-        <form>
-            Enter your density reading:
+        <form className='InputTitle'>
+            Density (g/L): 
             <input
                 type="text"
+                className='InputBox'
                 onChange={handleDensInput}>
             </input>
         </form>
