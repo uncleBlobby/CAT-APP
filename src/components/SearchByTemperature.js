@@ -8,8 +8,8 @@ function SearchByTemperature(props) {
     };
 
     return (
-        <form>
-            Enter your temperature reading:
+        <form className='InputTitle'>
+            Temperature (C):
             <input
                 type="text"
                 className='InputBox'
