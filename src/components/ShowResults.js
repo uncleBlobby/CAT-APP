@@ -33,20 +33,6 @@ function ShowResults(props) {
 
     };
 
-    let outputResultsArray = parseResults(props.filterTemp, props.filterDens)
-
-    const listItems = outputResultsArray.map((outputResultsArray) =>
-        <li>{outputResultsArray}</li>
-    );
-    let abv = '';
-    if (outputResultsArray.length === 1) {
-        abv = outputResultsArray[0].substring(23, 28);
-    }
-    let volume = '';
-    if (outputResultsArray.length === 1) {
-        volume = outputResultsArray[0].substring(14, 22);
-    }
-
     return (
         <div>
             <h1>ABV: {abv}%</h1>
