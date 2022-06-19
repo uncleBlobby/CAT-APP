@@ -1,6 +1,6 @@
 # CAT-APP
 
-[CAT-APP](https://cat-app-kappa.vercel.app/) is a react app built as an upgrade to my original nodejs command line tool for the Canadian Alcoholometric Tables.
+[CAT-APP](https://cat-app-p9z2ft7fw-uncleblobby.vercel.app/) is a react app built as an upgrade to my original nodejs command line tool for the Canadian Alcoholometric Tables.
 
 [NodeJS alc-tbl repo](https://github.com/uncleBlobby/alc-tbl-3)
 
